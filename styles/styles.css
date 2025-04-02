@@ -215,7 +215,7 @@ main .section {
 
 @media (width >= 900px) {
   .section > div {
-    max-width: 1200px;
+    max-width: 1800px;
     margin: auto;
   }
 }
@@ -224,6 +224,10 @@ main .section {
 main .section.light,
 main .section.highlight {
   background-color: var(--light-color);
+}
+
+main .section.full-width {
+  padding: 0;
 }
 
 /* Experimentation Widget Styling */
