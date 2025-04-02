@@ -25,12 +25,6 @@
   margin-bottom: -7px;
 }
 
-@media (width <= 758px) {
-  .video-banner .desktop-video-container video {
-    height: 88vh;
-  }
-}
-
 .video-banner .play-pause-button {
   position: absolute;
   left: 0;
