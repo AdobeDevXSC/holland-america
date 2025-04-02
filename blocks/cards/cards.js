@@ -55,6 +55,10 @@ export default async function decorate(block) {
           div.className = 'cards-card-body';
         }
       });
+
+      const image = li.querySelector('img');
+      image.setAttribute('loading', 'eager');
+
       ul.append(li);
     });
   }
