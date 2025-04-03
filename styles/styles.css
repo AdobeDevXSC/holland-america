@@ -103,9 +103,9 @@ h4, h5, h6 {
   font-family: var(--heading-font-family);
   font-weight: 600;
   line-height: 1.25;
-  margin-top: 1em;
-  margin-bottom: .5em;
+  margin: 1rem 0;
   scroll-margin: calc(var(--nav-height) + 1em);
+  color: #fff;
 }
 
 h1 { font-size: var(--heading-font-size-xxl) }
@@ -208,6 +208,11 @@ a.button.secondary, button.secondary {
   min-width: 190px;
 }
 
+a.button.secondary:hover,
+button.hover {
+  background-color: #cd5d19;
+}
+
 main img {
   max-width: 100%;
   width: auto;
@@ -227,12 +232,20 @@ main img {
 
 /* sections */
 main .section {
-  padding: 64px 16px;
+  padding: 32px 16px;
+}
+
+main .section > .default-content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
 }
 
 @media (width >= 600px) {
   main .section {
-    padding: 64px 32px;
+    padding: 32px;
   }
 }
 
