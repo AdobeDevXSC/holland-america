@@ -23,7 +23,7 @@
 
 .columns > div > div:not(.columns-img-col) {
 	text-align: center;
-	padding: 2.5rem;
+	padding: 2.5rem 3rem;
 }
 
 .columns > div > div:not(.columns-img-col) > p:first-of-type {
@@ -38,7 +38,7 @@
 
 .columns > div > div:not(.columns-img-col) > p:not(:first-of-type),
 .columns > div > div:not(.columns-img-col) > p:not(:first-of-type) * {
-	font-size: 16px;
+	font-size: 15px;
 }
 
 .columns > div > div:not(.columns-img-col):nth-of-type(1) {
