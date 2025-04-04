@@ -27,7 +27,7 @@
 
   /* fonts */
   --body-font-family: quasimoda, roboto, roboto-fallback;
-  --heading-font-family: var(--body-font-family);
+  --heading-font-family: minion-3-display, var(--body-font-family);
   --fixed-font-family: 'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace;
   --lenovo-font: lato, roboto-fallback; /* need to update variable name */
   --mammoth-heading: itc-lubalin, serif; /* need to update variable name */
