@@ -266,6 +266,10 @@ main .section.full-width {
   padding: 0;
 }
 
+main .section.full-width > div {
+  max-width: 100%;
+}
+
 /* Experimentation Widget Styling */
 .hlx-preview-overlay .hlx-badge {
 	padding: 1rem 2rem;
